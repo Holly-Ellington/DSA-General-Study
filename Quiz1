@@ -1,7 +1,7 @@
 Your company has 10 million (10,000,000) data records to process. At the moment, the algorithm being used takes almost an hour (~56 minutes) to process the 10 million records on a computer that can perform 30 billion (30,000,000,000) instructions per second. The algorithm being used requires n^2 instructions to process n data records.
 
 The length of time to process the data records is calculated with the following formula:
-
+total number of instructions ref/ number of instructions per sec = number of seconds required:
 
 
 For instance, to calculate the length of time it takes the current computer with the current algorithm, the formula was used like this:
@@ -25,36 +25,26 @@ Implement the new algorithm that requires n instructions to process n records. -
 
 Buy a new computer that is 10 times as fast.
 Buy a new computer that is 10 times as fast. - no response given
+
 Question 2
 If the company decided to buy a computer that was 10 times as fast as the current computer, how long will it take to process the 10 million records?
 Responses
 
-Less than a second
-Less than a second - no response given
+ 
+A. Less than a second  
+B About one minute
+C About 6 minutes - correct
+D About 30 minutes 
 
-About one minute
-About one minute - no response given
-
-About 6 minutes
-About 6 minutes - correct
-
-About 30 minutes
-About 30 minutes - no response given
 Question 3
 If the company decided to implement the new algorithm and keep the same computer, how long will it take to process 10 million records?
-Responses
+ 
+A. Less than a second - correct
+B About one minute
+C About 6 minutes
+D.About 30 minutes
 
-Less than a second
-Less than a second - correct
-
-About one minute
-About one minute - no response given
-
-About 6 minutes
-About 6 minutes - no response given
-
-About 30 minutes
-About 30 minutes - no response given
+ 
 Question 4
 The company has since grown and now has 20 million (20,000,000) records to process.
 
